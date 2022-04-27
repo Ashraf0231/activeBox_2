@@ -1,0 +1,19 @@
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .gallaryImage .overlayText h5 {
+    font-size: 12px;
+  }
+  .gallaryImage .overlayText p {
+    font-size: 12px;
+  }
+  .review-content p {
+    font-size: 22px !important;
+    margin-bottom: 22px !important;
+  }
+
+  .slick-dots {
+    bottom: 0%;
+    left: 20%;
+    transform: translate(-0%, -50%);
+  }
+}

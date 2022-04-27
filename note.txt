@@ -1,0 +1,9 @@
+font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+pen-ruler: <i class="fa-solid fa-pen-ruler"></i>
+monitor: <i class="fa-solid fa-desktop"></i>
+bulb: <i class="fa-thin fa-lightbulb"></i>
+react: <i class="fa-brands fa-react"></i>
+briefcase: <i class="fa-thin fa-briefcase"></i>

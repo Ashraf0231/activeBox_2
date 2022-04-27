@@ -1,0 +1,51 @@
+.gallarySection {
+  margin-bottom: 50px;
+}
+.gallarySection .row {
+  --bs-gutter-x: 0;
+}
+.container-fluid {
+  padding: 0 0;
+}
+.gallaryImage {
+  position: relative;
+}
+.gallaryImage img {
+  width: 100%;
+}
+.gallaryImage .overlay {
+  position: absolute;
+  background: var(--color-5);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+  transform: scale(0);
+}
+.gallaryImage .overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.gallaryImage .overlayText h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-7);
+  text-transform: uppercase;
+}
+.gallaryImage .overlayText p {
+  color: var(--color-7);
+}
+.gallaryImage:hover .overlay {
+  opacity: 0.8;
+  transform: scale(1);
+}
+.gallaryImage:hover .overlayText {
+  opacity: 1;
+}

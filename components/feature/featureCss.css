@@ -1,0 +1,29 @@
+.featureSection {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.featureCard {
+  margin-top: 70px;
+}
+
+.featureIcon {
+  margin-bottom: 30px;
+}
+.featureIcon i {
+  color: VAR(--color-5);
+  font-size: 60px;
+}
+.featureTitle {
+}
+.featureTitle h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-3);
+  text-transform: uppercase;
+}
+.featureText {
+  margin-top: 25px;
+}
+.featureText p {
+  padding: 0 35px;
+}

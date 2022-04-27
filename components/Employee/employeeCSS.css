@@ -1,0 +1,59 @@
+.employeeSection {
+  margin-bottom: 100px;
+}
+
+.employeeCard {
+  margin-top: 50px;
+}
+.employeeImage {
+}
+.employeeImage img {
+}
+.employeeTitle {
+  margin: 30px 0 30px 0;
+}
+.employeeTitle h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: var(--color-3);
+}
+.employeeTitle p {
+  font-size: 13px;
+  color: var(--color-1);
+  text-transform: uppercase;
+}
+.employeeText {
+  margin-bottom: 30px;
+}
+.employeeText p {
+}
+.socialIcon {
+}
+.socialIcon ul {
+}
+.socialIcon ul li {
+  margin: 0 4px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.socialIcon ul li:hover {
+  border: 1px solid var(--color-3);
+}
+
+.socialIcon ul li:first-child {
+  margin: 0 4px 0 0;
+}
+.socialIcon ul li i {
+  font-size: 18px;
+  color: var(--color-11);
+  transition: all 0.3s ease-in-out;
+}
+
+.socialIcon ul li:hover i {
+  color: var(--color-3);
+}

@@ -1,0 +1,56 @@
+/* // small device*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .bannerTitle {
+    margin: 60px auto 25px !important;
+  }
+
+  .bannerTitle h1 {
+    font-size: 30px !important;
+  }
+  .bannerParagraph {
+    margin: 0 auto 40px !important;
+  }
+  .bannerParagraph p {
+    font-size: 13px !important;
+  }
+  .bannerButton {
+    margin-bottom: 60px !important;
+  }
+  .bannerButton button {
+    padding: 12px 30px !important;
+  }
+  .featureSection {
+    margin-top: 00px !important;
+    margin-bottom: 80px !important;
+  }
+  .featureText p {
+    padding: 0 35px !important;
+  }
+  .reviews {
+    padding-bottom: 50px;
+  }
+
+  .review_item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .review-content p {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .review-photo {
+    width: 100% !important;
+  }
+  .review-content {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .slick-dots {
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

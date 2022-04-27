@@ -1,0 +1,32 @@
+.footerMenu {
+  background-color: #3a3e64;
+}
+.footerMenu h5 {
+  margin-top: 70px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-7);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footerMenu p {
+  margin-bottom: 100px;
+  padding: 0 20px;
+}
+.footerAddress {
+}
+
+.footerShare {
+}
+
+.footerShare .socialIcon {
+}
+
+.footerShare .socialIcon ul {
+}
+.footerShare .socialIcon ul li {
+}
+.footerShare .socialIcon ul li i {
+}
+.footerAbout {
+}

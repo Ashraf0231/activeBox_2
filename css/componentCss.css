@@ -1,0 +1,13 @@
+@import url("/css/MediaQuery/large.css");
+@import url("/css/MediaQuery/medium.css");
+@import url("/css/MediaQuery/small.css");
+@import url("/css/MediaQuery/xtraLarge.css");
+@import url("/css/MediaQuery/XtraSmall.css");
+@import url("/components/Banner/bannerSection.css");
+@import url("/components/feature/featureCss.css");
+@import url("/components/gallary/gallaryCss.css");
+@import url("/components/Employee/employeeCSS.css");
+@import url("/components/slider/sliderCss.css");
+@import url("/components/Download/downloadCss.css");
+@import url("/components/footerMenu/footerMenu.css");
+@import url("/components/footerMenu/footer.css");

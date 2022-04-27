@@ -1,0 +1,90 @@
+.bannerSection {
+  background-image: url(/image/Banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerSection .row {
+  --bs-gutter-x: 0;
+}
+.container {
+  padding: 0;
+}
+.header {
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navigation {
+  border-bottom: 1px solid var(--color-4);
+  padding: 0;
+}
+.col-12 {
+  padding: 0;
+}
+
+.logo {
+}
+.menu {
+}
+.menu ul {
+}
+.menu ul li {
+}
+.menu ul li {
+  padding: 0 30px;
+}
+.menu ul li:last-child {
+  padding-right: 0 !important;
+}
+.nav-link:last-child {
+}
+
+.menu ul li a {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-10) !important;
+  transition: 0.3s ease-in;
+  border-bottom: 1px solid transparent;
+}
+.menu ul li a:hover {
+  color: var(--color-7) !important;
+  border-bottom: 1px solid var(--color-7);
+}
+
+.bannerText {
+  /* text-align: center; */
+}
+.bannerTitle {
+  width: 100%;
+  margin: 150px auto 35px;
+}
+
+.bannerTitle h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: var(--color-7);
+  text-transform: uppercase;
+}
+.bannerParagraph {
+  width: 70%;
+  margin: 0 auto 70px;
+}
+.bannerParagraph p {
+  font-size: 18px;
+  color: var(--color-7);
+}
+.bannerButton {
+  margin-bottom: 150px;
+}
+.bannerButton button {
+  padding: 20px 50px;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+.bannerButton button:hover {
+  background-color: var(--color-10);
+  color: #000;
+}

@@ -1,0 +1,11 @@
+.footerPart {
+  background-color: #313454;
+}
+.footerContent {
+}
+.footerContent p {
+  margin: 25px 0 25px 0;
+}
+.footerContent p span {
+  color: white;
+}

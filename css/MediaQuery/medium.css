@@ -1,0 +1,48 @@
+/* // medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bannerTitle {
+    margin: 80px auto 30px !important;
+  }
+
+  .bannerTitle h1 {
+    font-size: 35px !important;
+  }
+  .bannerParagraph {
+    margin: 0 auto 40px !important;
+  }
+  .bannerParagraph p {
+    font-size: 16px !important;
+  }
+  .bannerButton {
+    margin-bottom: 60px !important;
+  }
+  .bannerButton button {
+    padding: 15px 30px !important;
+  }
+  .featureSection {
+    margin-top: 30px !important;
+    margin-bottom: 80px !important;
+  }
+  .reviews {
+    padding-bottom: 50px;
+  }
+
+  .review_item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .review-photo {
+    width: 100% !important;
+  }
+  .review-content {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+  .slick-dots {
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

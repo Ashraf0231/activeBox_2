@@ -1,0 +1,66 @@
+/* // ExtraSmall devices (up to  575.98px) */
+@media (max-width: 575.98px) {
+  .row {
+    --bs-gutter-x: 0px !important;
+  }
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bannerTitle {
+    margin: 60px auto 25px !important;
+  }
+
+  .bannerTitle h1 {
+    font-size: 30px !important;
+  }
+  .bannerParagraph {
+    margin: 0 auto 40px !important;
+  }
+  .bannerParagraph p {
+    font-size: 13px !important;
+  }
+  .bannerButton {
+    margin-bottom: 60px !important;
+  }
+  .bannerButton button {
+    padding: 12px 30px !important;
+  }
+  .featureSection {
+    margin-top: 00px !important;
+    margin-bottom: 80px !important;
+  }
+  .featureText p {
+    padding: 0 10px !important;
+  }
+
+  .reviews {
+    padding-bottom: 50px;
+  }
+
+  .review_item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .review-photo {
+    width: 100% !important;
+  }
+  .review-content {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+
+  .review-content p {
+    font-size: 18px !important;
+    margin-bottom: 18px !important;
+  }
+  .slick-dots {
+    bottom: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
